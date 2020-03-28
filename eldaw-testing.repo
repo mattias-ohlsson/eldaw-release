@@ -1,0 +1,23 @@
+[eldaw-testing]
+name=Enterprise Linux Digital Audio Workstation $releasever - Testing - $basearch
+#baseurl=https://download.teknik.tv/pub/eldaw/testing/$releasever/Everything/$basearch
+metalink=https://mirrors.teknik.tv/metalink?repo=testing-eldaw-$releasever&arch=$basearch&infra=$infra&content=$contentdir
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ELDAW-8
+
+[eldaw-testing-debuginfo]
+name=Enterprise Linux Digital Audio Workstation $releasever - Testing - $basearch - Debug
+#baseurl=https://download.teknik.tv/pub/eldaw/testing/$releasever/Everything/$basearch/debug
+metalink=https://mirrors.teknik.tv/metalink?repo=testing-debug-eldaw-$releasever&arch=$basearch&infra=$infra&content=$contentdir
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ELDAW-8
+gpgcheck=1
+
+[eldaw-testing-source]
+name=Enterprise Linux Digital Audio Workstation $releasever - Testing - $basearch - Source
+#baseurl=https://download.teknik.tv/pub/eldaw/testing/$releasever/Everything/SRPMS
+metalink=https://mirrors.teknik.tv/metalink?repo=testing-source-eldaw-$releasever&arch=$basearch&infra=$infra&content=$contentdir
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ELDAW-8
+gpgcheck=1
